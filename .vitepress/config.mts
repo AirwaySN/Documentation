@@ -10,6 +10,11 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/logo.png' }]
   ],
 
+  sitemap: {
+    hostname: 'https://docs.airwaysn.org',
+    lastmodDateOnly: false
+  },
+
   lastUpdated: true,
 
   themeConfig: {
@@ -50,7 +55,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/AirwaySN/Documentation/:path'
+      pattern: 'https://github.com/AirwaySN/Documentation/edit/main/:path'
     },
 
     search: {
